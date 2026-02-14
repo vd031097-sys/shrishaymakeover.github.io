@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Shrishay makeover</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Shrishay<span>makeover</span></div>
+       <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="location.html">Location</a></li> <li><a href="booking.html" class="btn-book">Book Now</a></li>
+</ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Book via WhatsApp</h2>
+            <div class="booking-wrapper">
+                <form id="whatsappForm" class="styled-form">
+                    <label>Your Name</label>
+                    <input type="text" id="cName" placeholder="Enter your name" required>
+
+                    <label>Phone Number</label>
+                    <input type="tel" id="cPhone" placeholder="Your mobile number" required>
+
+                    <label>Select Service</label>
+                    <select id="cService">
+                        <option value="Hair Cut">Hair Cut</option>
+                        <option value="Skin treatments">Skin treatments</option>
+                        <option value="Facial">Facial</option>
+                        <option value="Hair Color">Hair Color</option>
+                        <option value="Bridal Makeup">Bridal Makeup</option>
+                        <option value="Party makeup">Party makeup</option>
+                    </select>
+
+                    <label>Preferred Date</label>
+                    <input type="date" id="cDate" required>
+
+                    <button type="submit" class="btn-primary" style="width: 100%;">
+                        <i class="fab fa-whatsapp"></i> Send Request on WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shrishay makeover.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Shrishay makeover</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Shrishay<span>makeover</span></div>
+        <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="location.html">Location</a></li> <li><a href="booking.html" class="btn-book">Book Now</a></li>
+</ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Customer Stories</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Absolutely loved my haircut! The stylist listened to exactly what I wanted."</p>
+                    <h4>- Rahul Sharma</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐_</div>
+                    <p>"The spa treatment was so relaxing. Best place in the city."</p>
+                    <h4>- Priya Patel</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐_</div>
+                    <p>"Great service and very clean environment. Highly recommended!"</p>
+                    <h4>- Amit Verma</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="feedback-section">
+        <div class="container">
+            <h2 class="section-title">Share Your Experience</h2>
+            <div class="booking-wrapper"> <form id="reviewForm" class="styled-form">
+                    <label>Your Name</label>
+                    <input type="text" id="rName" placeholder="Enter your name" required>
+
+                    <label>Rating</label>
+                    <select id="rRating">
+                        <option value="5 Stars">⭐⭐⭐⭐⭐ (Excellent)</option>
+                        <option value="4 Stars">⭐⭐⭐⭐ (Good)</option>
+                        <option value="3 Stars">⭐⭐⭐ (Average)</option>
+                        <option value="2 Stars">⭐⭐ (Poor)</option>
+                        <option value="1 Star">⭐ (Terrible)</option>
+                    </select>
+
+                    <label>Your Feedback</label>
+                    <textarea id="rMessage" rows="5" placeholder="Tell us about your experience..." required></textarea>
+
+                    <button type="submit" class="btn-primary" style="width: 100%;">
+                        <i class="fab fa-whatsapp"></i> Send Feedback
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shrishay makeover. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

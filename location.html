@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - Shrishay Makeover</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Shrishay Logo"> Shrishay<span>Makeover</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="location.html" class="active">Location</a></li>
+            <li><a href="booking.html" class="btn-book">Book Now</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero" style="height: 40vh;">
+        <div class="hero-content">
+            <h1>Visit Our Studio</h1>
+            <p>Exclusive Styling at Shrishay Makeover, Lakadwas</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            
+            <div class="udaipur-note">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Service Availability</h3>
+                <p>We are located at <strong>GRX5+FJM, Lakadwas, Rajasthan 313003</strong>.</p>
+            </div>
+
+            <div class="contact-wrapper" style="margin-top: 3rem;">
+                
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><i class="fas fa-map-pin"></i> <strong>Address:</strong><br> Shrishay Makeover,<br> GRX5+FJM, Lakadwas,<br> Rajasthan 313003</p>
+                    <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong><br> +91 9001289218</p>
+                    <p><i class="fas fa-clock"></i> <strong>Hours:</strong><br> Mon-Sun: 10:00 AM - 7:00 PM</p>
+                </div>
+
+                <div class="map-container">
+                    <iframe 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        loading="lazy" 
+                        allowfullscreen
+                        src="https://maps.google.com/maps?q=Shrishay+makeover,+GRX5%2BFJM,+Lakadwas,+Rajasthan+313003&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Shrishay Makeover. Proudly serving Udaipur.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
