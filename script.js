@@ -46,7 +46,7 @@ if (reviewForm) {
         const message = document.getElementById('rMessage').value;
 
         // 2. YOUR Phone Number
-        const salonNumber = "917742428219"; // Change this!
+        const salonNumber = "919001289218"; // Change this!
 
         // 3. Create Message
         const whatsappText = `*New Customer Feedback* %0A%0A*Name:* ${name}%0A*Rating:* ${rating}%0A*Feedback:* ${message}`;
@@ -58,4 +58,5 @@ if (reviewForm) {
         // Optional: Clear the form after sending
         reviewForm.reset();
     });
+
 }
