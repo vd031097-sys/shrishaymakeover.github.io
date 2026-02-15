@@ -22,7 +22,7 @@
         </div>
     </nav>
 
-    <section class="section">
+   <section class="section">
         <div class="container">
             <h2 class="section-title">Customer Stories</h2>
             <div class="review-grid">
@@ -41,9 +41,22 @@
                     <p>"Great service and very clean environment. Highly recommended!"</p>
                     <h4>- Amit Verma</h4>
                 </div>
+                <div class="review-card">
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <p>"Good service"</p>
+    <h4>- Leela dangi</h4>
+</div>
+
+<div class="review-card">
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <p>"I'am vry happy 🙂and thise Good sarvice 👍🌼❤️"</p>
+    <h4>- Tara dangi</h4>
+</div>
             </div>
         </div>
+        
     </section>
+
 
     <section class="section bg-light" id="feedback-section">
         <div class="container">
@@ -61,11 +74,14 @@
                         <option value="1 Star">⭐ (Terrible)</option>
                     </select>
 
-                    <label>Your Feedback</label>
-                    <textarea id="rMessage" rows="5" placeholder="Tell us about your experience..." required></textarea>
+                    <label>Your Photo (Optional)</label>
+                <input type="file" id="rImage" accept="image/*">
 
-                    <button type="submit" class="btn-primary" style="width: 100%;">
-                        <i class="fab fa-whatsapp"></i> Send Feedback
+                <label>Your Feedback</label>
+                <textarea id="rMessage" rows="5" placeholder="Tell us about your experience..." required></textarea>
+
+                <button type="submit" class="btn-primary" style="width: 100%;">
+                    Post Review
                     </button>
                 </form>
             </div>
@@ -78,4 +94,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
